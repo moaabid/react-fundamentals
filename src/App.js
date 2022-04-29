@@ -1,5 +1,6 @@
 import './App.css'
-import { NameList } from './components/NameList'
+
+import { Form } from './components/Form'
 
 function App() {
   return (
@@ -13,7 +14,11 @@ function App() {
       {/* <ClickHandler /> */}
       {/* <ParentComponent /> */}
       {/* <UserGreeting /> */}
-      <NameList />
+      {/* <NameList /> */}
+      {/* <StyleSheet /> */}
+      {/* <Inline />
+      <h1 className="error">error</h1> */}
+      <Form />
     </div>
   )
 }
